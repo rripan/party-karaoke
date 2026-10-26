@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Plain ES5 script injected into test browsers in place of YouTube's iframe_api.
+    "tests/support/fake-youtube-iframe-api.js",
   ]),
 ]);
 
